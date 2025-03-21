@@ -73,7 +73,11 @@ Windows Subsystem for Linux (WSL) is a powerful feature that allows you to run a
    chmod 700 ~/.ssh
    chmod 600 ~/.ssh/authorized_keys
    ```
-
+6. Enable ssh
+   ```bash
+   sudo systemctl enable ssh
+   ```
+   
 ## Step 6: Configure SSH on Mac
 
 1. Edit your SSH config file:
